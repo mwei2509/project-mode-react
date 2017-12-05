@@ -1,0 +1,129 @@
+#flex-editor{
+  position: absolute;
+  padding: 10px;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,.5)
+}
+
+#flex-editor label {
+  width: 70px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#flex-editor input[type="text"], #flex-editor input[type="number"]{
+  padding: 3px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  outline: none;
+  margin: 2px;
+  width: 30px;
+  text-align: center;
+}
+
+#flex-editor textarea{
+  border: 1px solid #eee;
+  padding: 5px;
+  width: 95%;
+  outline: none;
+  resize: vertical;
+}
+
+.flex-operations button {
+  background-color: #009AC8;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  font-size: 12px;
+  border: 0px;
+  margin: 2px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.flex-operations button:hover {
+  background-color: #005c78;
+}
+
+.flex-operations button:active {
+  background-color: #002e3c;
+}
+
+.flex-helper {
+  cursor: default
+}
+
+.has-content {
+  color: #000;
+  font-style: normal
+}
+
+.is-empty {
+  color: #ddd;
+  font-style: oblique
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.is-link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #4A90E2
+}
+
+.is-link:hover {
+  color: #50E3C2
+}
+
+.color-picker {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  background-color: #fff;
+}
+
+.color-picker__close {
+  cursor: pointer;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.handle{
+  cursor: cell;
+  background-color: #eee;
+  margin: 0;
+  padding: 5px;
+}
+
+.pm-selected{
+  outline: none !important;
+  border-color: #9ecaed !important;
+  box-shadow: 0 0 10px #9ecaed !important;
+}
+
+.flex-helper-body{
+  margin: 0;
+  padding: 0;
+}
+
+.flex-wrapper{
+  display: flex;
+}
+
+.flex-row{
+  display: flex;
+}
+
+.direction-column{
+  flex-direction: column;
+}
+
+.direction-row{
+  flex-direction: row;
+}
